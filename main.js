@@ -1,7 +1,7 @@
 "use strict";
 
-import { vs, fs } from '/shaders.js';
-import { parseOBJ, parseMTL } from '/parse.js';
+import { vs, fs } from 'shaders.js';
+import { parseOBJ, parseMTL } from 'parse.js';
 
 async function main() {
   /** @type {HTMLCanvasElement} */
